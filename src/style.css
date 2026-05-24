@@ -111,3 +111,105 @@ footer p{
     margin: 15px 0;
     line-height: 1.6;
 }
+
+/* RESPONSIVO - TABLET (até 768px) */
+@media (max-width: 768px) {
+    header h1{
+        font-size: 24px;
+    }
+
+    .textoPrincipal{
+        font-size: 16px;
+        padding: 25px 20px 15px 20px;
+    }
+
+    .container{
+        width: 90%;
+        max-width: 350px;
+    }
+
+    input{
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    button{
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+    #resultado{
+        padding: 20px;
+        margin-top: 15px;
+    }
+
+    #resultado h2{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    #resultado p{
+        font-size: 16px;
+        margin: 12px 0;
+    }
+}
+
+/* RESPONSIVO - CELULAR PEQUENO (até 480px) */
+@media (max-width: 480px) {
+    body{
+        font-size: 14px;
+    }
+
+    header h1{
+        font-size: 20px;
+    }
+
+    .textoPrincipal{
+        font-size: 14px;
+        padding: 20px 15px 12px 15px;
+    }
+
+    .container{
+        width: 95%;
+        margin: 20px auto 30px auto;
+    }
+
+    input{
+        padding: 12px;
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    button{
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+    button:active{
+        background-color: #4a6a7c;
+    }
+
+    footer{
+        padding: 12px;
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+
+    #resultado{
+        padding: 18px;
+        margin-top: 12px;
+        border-radius: 6px;
+    }
+
+    #resultado h2{
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    #resultado p{
+        font-size: 14px;
+        margin: 10px 0;
+    }
+}
