@@ -1,4 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-family: Arial;
   background: #0f172a;
   color: white;
@@ -8,13 +17,19 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color: rgb(240, 248, 255);
+    padding: 14px;
+}
+
+header h1{
+    color: #0f172a;
 }
 
 .container{
   width: 400px;
   margin: 50px auto;
   text-align: center;
+  flex: 1;
 }
 
 input{
@@ -27,4 +42,16 @@ input{
 button{
   padding: 12px 20px;
   cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 241, 252);
+    padding: 14px;
+}
+
+footer p{
+    color: #0f172a;
 }
