@@ -33,4 +33,6 @@ async function buscarClima(){
     </p>
 
   `
+  
+  document.getElementById("resultado").style.display = "block";
 }
