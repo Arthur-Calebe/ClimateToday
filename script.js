@@ -22,7 +22,7 @@ async function buscarClima(){
   // MOSTRAR NA TELA
   document.getElementById("resultado").innerHTML = `
   
-    <h2>${cidade}.trin</h2>
+    <h2>${cidade}</h2>
 
     <p>🌡 Temperatura: 
       ${climaData.current_weather.temperature}°C
